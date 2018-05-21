@@ -1,0 +1,19 @@
+Python Task
+Write a script in Python (use the most Pythonic way), that will get and print exchange
+rate from NBP Bank. Data that you have to get are: buying rate and selling rate.
+When the program runs, user inputs:
+- Currency code (USD, EUR, CHF, GBP).
+- Time period for which data will be retrieved – start date and end date.
+On the output user gets:
+- Average buying rate
+- Average selling rate
+- When was the best time to buy, and when to sell currency
+- Standard deviation (optional)
+
+Additional:
+Write as many test cases as you can to test your script.
+Output is a standard output.
+Date is in UTC format
+Instruction how to get XML files: http://www.nbp.pl/home.aspx?f=/kursy/instrukcja_pobierania_kursow_walut.html
+Example XML: http://www.nbp.pl/kursy/xml/c073z070413.xml
+As a date please use ‘data_publikacji' from XML.
